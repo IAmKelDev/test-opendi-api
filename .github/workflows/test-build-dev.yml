@@ -7,14 +7,16 @@ on:
     branches:
       - dev
     paths:
-      - docs/*
+      - docs/**
+      - docs/api-source/**
       - sidebars.js
 
   push:         # Validate incoming changes
     branches:
       - dev
     paths:
-      - docs/*
+      - docs/**
+      - docs/api-source/**
       - sidebars.js
   
   workflow_dispatch:  # Allow manual re-run from Actions tab
