@@ -3,7 +3,7 @@
   "info": {
     "title":"OpenDI Decision Modeling API",
     "version":"0.1",
-    "description": "TEST EDIT - This is a WIP draft of the OpenDI standard API specification.  \nOnce finished, this API will define standard endpoints that OpenDI-compliant systems are expected to implement or use.\n\nThis API largely concerns [Causal Decision Models](api/models.tag.mdx) and other related data structures."
+    "description": "TEST EDIT --- This is a WIP draft of the OpenDI standard API specification.  \nOnce finished, this API will define standard endpoints that OpenDI-compliant systems are expected to implement or use.\n\nThis API largely concerns [Causal Decision Models](api/models.tag.mdx) and other related data structures."
   },
   "servers": [
       {
