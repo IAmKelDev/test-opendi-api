@@ -55,6 +55,7 @@ jobs:
         run: |
           mkdir ../TEMP
           mv ./build ../TEMP/docs
+          git restore *
           git switch gh-pages
           rm -rf ./docs/
           mv ../TEMP/docs ./docs
