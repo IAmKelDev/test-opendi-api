@@ -8,7 +8,6 @@ on:
       - dev
     paths:
       - docs/**
-      - docs/api-source/**
       - sidebars.js
 
   push:         # Validate incoming changes
@@ -16,7 +15,6 @@ on:
       - dev
     paths:
       - docs/**
-      - docs/api-source/**
       - sidebars.js
   
   workflow_dispatch:  # Allow manual re-run from Actions tab
