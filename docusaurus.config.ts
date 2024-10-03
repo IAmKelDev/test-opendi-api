@@ -61,9 +61,8 @@ const config = {
 
           routeBasePath: '/'
         },
-        gtag: {
-          trackingID: "G-B85FSJ6EG8",
-          anonymizeIP: true,
+        googleTagManager: {
+          containerId: 'GTM-K4VKHJ8T'
         },
         theme: {
           customCss: './src/css/custom.css',
