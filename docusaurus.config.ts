@@ -64,6 +64,10 @@ const config = {
         googleTagManager: {
           containerId: 'GTM-K4VKHJ8T'
         },
+        gtag: {
+          trackingID: "G-B85FSJ6EG8",
+          anonymizeIP: true,
+        },
         theme: {
           customCss: './src/css/custom.css',
         },
