@@ -1633,7 +1633,7 @@
   dependencies:
     tslib "^2.6.0"
 
-"@docusaurus/utils-validation@3.5.2", "@docusaurus/utils-validation@^3.0.1":
+"@docusaurus/utils-validation@3.5.2", "@docusaurus/utils-validation@^3", "@docusaurus/utils-validation@^3.0.1":
   version "3.5.2"
   resolved "https://registry.yarnpkg.com/@docusaurus/utils-validation/-/utils-validation-3.5.2.tgz#1b2b2f02082781cc8ce713d4c85e88d6d2fc4eb3"
   integrity sha512-m+Foq7augzXqB6HufdS139PFxDC5d5q2QKZy8q0qYYvGdI6nnlNsGH4cIGsgBnV7smz+mopl3g4asbSDvMV0jA==
@@ -1682,6 +1682,13 @@
   version "5.5.3"
   resolved "https://registry.yarnpkg.com/@faker-js/faker/-/faker-5.5.3.tgz#18e3af6b8eae7984072bbeb0c0858474d7c4cefe"
   integrity sha512-R11tGE6yIFwqpaIqcfkcg7AICXzFg14+5h5v0TfF/9+RMDL6jhzCy/pxHVOfbALGdtVYdt6JdR21tuxEgl34dw==
+
+"@gracefullight/docusaurus-plugin-microsoft-clarity@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@gracefullight/docusaurus-plugin-microsoft-clarity/-/docusaurus-plugin-microsoft-clarity-1.0.0.tgz#a812a9e9f95aa3d149a6d8d91e173320c4592657"
+  integrity sha512-tOFMgF8GdWL4VgdkuPiT/mDYbi4GgtOpq4hVWCg4O3XfSUd7TNGSrzNXnLiOzcO64gQSrBMpB3aQwIpi4gshdw==
+  dependencies:
+    "@docusaurus/utils-validation" "^3"
 
 "@hapi/hoek@^9.0.0", "@hapi/hoek@^9.3.0":
   version "9.3.0"

@@ -86,6 +86,8 @@ const config = {
           } satisfies OpenApiPlugin.Options,
         } satisfies Plugin.PluginOptions,
       },
+      "@gracefullight/docusaurus-plugin-microsoft-clarity",
+      { projectId: "oikkxw5xzl" },
     ]
   ],
 
